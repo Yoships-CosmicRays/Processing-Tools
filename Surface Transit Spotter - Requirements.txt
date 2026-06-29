@@ -1,0 +1,15 @@
+Surface Transit Spotter — Requirements
+======================================
+ 
+Install the required Python libraries before running the program:
+ 
+    pip install numpy opencv-python tifffile scipy Pillow
+ 
+    numpy          — array and numerical operations
+    opencv-python  — frame alignment, image processing and AVI video writing
+    tifffile       — 16-bit TIFF file export
+    scipy          — connected-pixel labelling for transit residual detection
+    Pillow         — image display in the Tkinter selection interfaces
+ 
+All other information (usage, parameters, troubleshooting) is documented
+in the Surface Transit Spotter Documentation.pdf file included in this package.
