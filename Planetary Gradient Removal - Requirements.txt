@@ -1,0 +1,12 @@
+Planetary Gradient Removal — Requirements
+======================================
+ 
+Install the required Python libraries before running the program:
+ 
+    pip install numpy opencv-python tifffile scipy Pillow
+ 
+    numpy          — array and numerical operations
+    opencv-python  — image processing and AVI video writing
+ 
+All other information (usage, parameters) is documented
+in the Planetary Gradient Removal Documentation.pdf file included in this package.
